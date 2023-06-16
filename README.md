@@ -2,9 +2,29 @@
 
 # xxAI.art
 
-O código front-end do sitio web é de código aberto, benvido para axudar a optimizar a tradución
+Parte do código do sitio web é de código aberto, benvido para axudar a optimizar a tradución.
+
+## código front-end
 
 * [código front-end](https://github.com/xxai-art/web)
 * [Paquetes de idiomas para o sitio no seu conxunto](https://github.com/xxai-art/web/tree/main/i18n)
 * [Paquetes de idiomas para módulos de inicio de sesión](https://github.com/wacpkg/user/tree/main/ui.i18n)
 * [Web Documentación multilingüe](https://github.com/xxai-doc)
+
+A linguaxe de programación front-end é [@w5/coffee_plus](http://npmjs.com/@w5/coffee_plus) , que engade algunhas funcións baseadas na sintaxe coffeescript, consulte [./coffee_plus.md](./coffee_plus.md) .
+
+## Internacionalización de sitios web e documentos
+
+Constrúe nos seguintes 3 proxectos
+
+### [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
+
+O modelo de rebaixa, co sufixo `.mdt` , pode referirse a ficheiros externos cunha sintaxe similar a `<+ ./coffee_plus/import.js>` .
+
+[@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
+
+A tradución de Markdown non traducirá códigos e ligazóns e almacenará na caché as frases traducidas. Se se modifica a tradución pero non se modifica o texto orixinal, executala de novo non sobrescribirá a modificación da tradución.
+
+[@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
+
+Ficheiros de idiomas para traducir sitios web xerados por `yaml` .
