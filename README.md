@@ -17,14 +17,14 @@ A linguaxe de programación front-end é [@w5/coffee_plus](http://npmjs.com/@w5/
 
 Constrúe nos seguintes 3 proxectos
 
-### [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
+* [@w5/mdt](https://www.npmjs.com/package/@w5/mdt)
 
-O modelo de rebaixa, co sufixo `.mdt` , pode referirse a ficheiros externos cunha sintaxe similar a `<+ ./coffee_plus/import.js>` .
+  O sufixo é `.mdt` , podes usar a sintaxe similar a `<+ ./coffee_plus/import.js>` para facer referencia a ficheiros externos e xerar rebaixa co sufixo `.md` .
 
-[@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
+* [@w5/trmd](https://www.npmjs.com/package/@w5/trmd)
 
-A tradución de Markdown non traducirá códigos e ligazóns e almacenará na caché as frases traducidas. Se se modifica a tradución pero non se modifica o texto orixinal, executala de novo non sobrescribirá a modificación da tradución.
+  A tradución de Markdown non traducirá códigos e ligazóns e almacenará en caché as frases traducidas. Se se modifica a tradución pero non se modifica o texto orixinal, executala de novo non sobrescribirá a modificación da tradución.
 
-[@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
+* [@w5/i18n](https://www.npmjs.com/package/@w5/i18n)
 
-Ficheiros de idiomas para traducir sitios web xerados por `yaml` .
+  Ficheiros de idiomas para traducir sitios web xerados por `yaml` .
